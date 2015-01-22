@@ -1,0 +1,20 @@
+@import "../helpers/variables";
+html {
+  font-family: 'Ubuntu Mono', monospace, sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: $default-font-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.4rem;
+}

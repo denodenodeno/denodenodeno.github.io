@@ -1,0 +1,28 @@
+$susy: (
+  columns: 12,
+  global-box-sizing: border-box,
+  use-custom: (
+    rem: true
+  )
+);
+
+@include border-box-sizing;
+
+
+.container {
+  width: 100%;
+  min-height: 90%;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  @media screen and (min-width: 75rem) {
+    width: 72.5rem;
+  }
+
+}

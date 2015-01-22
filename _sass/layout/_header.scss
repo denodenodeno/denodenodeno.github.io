@@ -1,0 +1,15 @@
+.site-header {
+  position: relative;
+  height: 4rem;
+  @include site-border--bottom;
+}
+
+.site-logo {
+  @include span(3);
+  max-width: 2.6rem;
+  margin-top: 0.75rem;
+}
+
+.site-header__inner {
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+---
+layout: default
+title: Notes
+---
+<section class="element element__content-loop">
+  <h1>Notes</h1>
+  <ul class="element__posts">
+    {% for note in site.categories.notes %}
+    <li class="element__posts">
+      <h2 class="element__posts--heading">
+        <a href="{{ note.url }}">{{ note.title }}</a>
+        <p class="element__posts--date">{{ note.date | date_to_string }}</p>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

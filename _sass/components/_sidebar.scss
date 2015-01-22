@@ -1,0 +1,38 @@
+.element__post--sidebar {
+  margin: 2.67rem 0;
+  text-align: center;
+
+    @media screen and (min-width: 34rem) {
+      @include push(1);
+      @include span(2);
+    }
+
+  .element__description--image {
+    max-width: 6.25rem;
+    margin: 0 auto;
+  }
+
+  .element__sidebar--date {
+    margin: 0;
+    font-size: 0.75rem;
+    color: $posts-date-color;
+  }
+
+  .element__sidebar--author {
+    margin: 0.2rem 0 0.4rem 0;
+  }
+
+}
+
+.element__sidebar--share {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin-right: 0.2rem;
+    text-align: center;
+    list-style: none;
+  }
+
+}

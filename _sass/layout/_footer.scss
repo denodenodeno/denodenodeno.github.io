@@ -1,0 +1,23 @@
+.site-footer {
+  height: 3.125rem;
+  @include site-border--top;
+}
+
+.site-footer__terms {
+  padding: 0;
+
+  li {
+    display: block;
+    float: left;
+    margin-right: 0.4rem;
+    font-size: 0.75rem;
+    color: $secondary-font-color;
+    list-style: none;
+
+    &:last-child {
+      float: right;
+      margin-right: 0;
+    }
+
+  }
+}

@@ -1,0 +1,20 @@
+@mixin site-border--bottom () {
+  border-bottom: 1px solid $element-color;
+}
+
+@mixin site-border--top () {
+  border-top: 1px solid $element-color;
+}
+
+@mixin clearfix {
+  &:before {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

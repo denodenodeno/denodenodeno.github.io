@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="element__article">
+  <header>
+    <h1 class="element__article--heading">{{ page.title }}</h1>
+    <p class="element__article--share">share/> <a class="share--tw-js" target="_blank">twitter</a></p>
+  </header>
+  <div class="element__article--content">
+    {{ content }}
+  </div>
+</article>
+{% include sidebar.html %}

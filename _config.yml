@@ -1,0 +1,14 @@
+# Site settings
+title: Denislav Ganchev Front-end Developer
+email: denodenodeno@gmail.com
+description: >
+    This is the blog of Denislav Ganchev - front-end web developer
+baseurl: "" 
+url: "http://denodenodeno.com"
+twitter_username: denoStc
+github_username:  denodneodeno
+
+sass:
+    sass_dir: _sass
+# Build settings
+markdown: kramdown

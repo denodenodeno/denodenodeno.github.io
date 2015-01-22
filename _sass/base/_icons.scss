@@ -1,0 +1,24 @@
+.icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: $nav-color;
+}
+
+.icon-twitter {
+  &:hover {
+      fill: #00aced;
+  }
+}
+
+.icon-github {
+  &:hover {
+      fill: #4183c4;
+  }
+}
+
+
+.icon-feed {
+  &:hover {
+    fill: #ff9900;
+  }
+}

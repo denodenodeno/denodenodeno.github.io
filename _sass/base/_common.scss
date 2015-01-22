@@ -1,0 +1,23 @@
+@import "../helpers/variables";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}

@@ -1,0 +1,80 @@
+.element {
+  padding: 3rem 0;
+  @include site-border--bottom;
+  overflow: hidden;
+  clear: both;
+
+  &:last-child {
+    border: none;
+  }
+
+}
+
+.element__description--text {
+  margin: 0 auto;
+  text-align: center;
+
+  @media screen and (min-width: 75rem) {
+    max-width: 47.5rem;
+  }
+
+}
+
+.element__description--image {
+   img {
+    border-radius: 50%;
+  }
+  text-align: center;
+}
+
+.element__description--image--home {
+  width: 8.75rem;
+}
+
+.element__content-loop {
+
+  text-align: center;
+
+  h1 {
+    margin: 0 0 2rem 0;
+    font-size: 2.875rem;
+    color: $main-headings-color;
+
+    &:after {
+      display: block;
+      width: 3rem;
+      height: 1px;
+      margin: 1.4rem auto 0 auto;
+      content: "";
+      text-align: center;
+      background-color: $border-color--focus;
+    }
+
+  }
+}
+
+.element__posts {
+  padding: 0;
+  list-style: none;
+
+  .element__posts--single-post {
+    margin-bottom: 1.375rem;
+  }
+
+  .element__posts--heading {
+    margin: 1rem 0 0;
+
+    a {
+      color: $secondary-headings-color;
+    }
+
+  }
+
+  .element__posts--date {
+    margin: 0;
+    font-size: 0.75rem;
+    color: $posts-date-color;
+  }
+
+}
+
