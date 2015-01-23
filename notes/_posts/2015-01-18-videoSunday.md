@@ -2,14 +2,14 @@
 layout: post
 title:  "#videoSunday"
 author: Denislav
-date:   2015-01-18 13:21:00
+date:   2015-01-18 16:21:00
 categories: 
   - notes
 ---
 I love to watch videos from conferences in the weekends. 
 
 \#videoSunday is the way I call it.
-Since this weekend was a quite busy for me, I watch only two presentations, both were great.
+Since this weekend was quite busy for me, I managed to watch only two presentations, both were great.
 
 
 ## Heydon Pickering - Getting nowhere with CSS best practices by [@heydonworks](https://twitter.com/heydonworks) 
