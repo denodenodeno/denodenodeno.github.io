@@ -1,6 +1,9 @@
 <aside class="element__post--sidebar">
   <div class="element__description--image">
-    <img src="/images/de-180.jpg" alt="deno"/>
+      <picture>
+          <source srcset="/images/denislav-ganchev.jpg, /images/denislav-ganchev@2.jpg 2x">
+          <img srcset="/images/denislav-ganchev.jpg, /images/denislav-ganchev@2.jpg 2x" alt="Denislav Ganchev"/>
+      </picture>
   </div>
   <p class="element__sidebar--date">published: {{ page.date | date_to_string }}</p>
   <p class="element__sidebar--author">by {{ page.author }}</p>
