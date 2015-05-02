@@ -22,7 +22,6 @@ article {
     line-height: 1.2;
   }
 
-
   .element__article--date {
     margin: 0;
     font-size: 0.75rem;
@@ -42,34 +41,8 @@ article {
       max-width: 80%;
     }
 
-     pre {
-      border: 1px solid #ddd;
-      background-color: #eef;
-      padding: 0 .4em;
-    }
-
      ul,  ol {
       margin-left: 0;
-    }
-
-     code {
-      border: 1px solid #ddd;
-      background-color: #eef;
-      padding: 0 .2em;
-    }
-
-     pre code {
-      border: none;
-    }
-
-     pre.terminal {
-      border: 1px solid #000;
-      background-color: #333;
-      color: #FFF;
-    }
-
-     pre.terminal code {
-      background-color: #333;
     }
 
   }

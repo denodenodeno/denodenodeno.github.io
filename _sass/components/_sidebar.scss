@@ -12,7 +12,8 @@
     margin: 0 auto;
   }
 
-  .element__sidebar--date {
+  .element__sidebar--date,
+  .element__sidebar--read-time {
     margin: 0;
     font-size: 0.75rem;
     color: $posts-date-color;
