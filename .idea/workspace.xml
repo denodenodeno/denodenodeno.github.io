@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68c7dbb3-ddee-49e3-9b24-42983f384608" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_posts/2015-05-23-workflow-and-tools.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="$PROJECT_DIR$/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes/_posts/2015-05-03-videoSunday-week-18.md" afterPath="$PROJECT_DIR$/notes/_posts/2015-05-03-videoSunday-week-18.md" />
     </list>
     <ignored path="denodenodeno.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
