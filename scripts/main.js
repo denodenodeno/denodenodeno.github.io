@@ -30,7 +30,7 @@
 
 
       contentLoaded: function () {
-          app.setTime('.element__sidebar--read-time', '.element__article--content', 'some-class');
+          app.setTime('.element__sidebar--read-time', '.element__article--content', 'reading-time');
       },
 
       setTime: function (target, wrapperEl, wrapperElClass) {
