@@ -12,7 +12,7 @@ Been able to see someone else workflow is giving me another view of my own.
 And today, with a little time for blogging into my belt, I'll share some of the tools, that are part of my workflow.
 
 ##Frameworks
-* **AngularJs** - I know it's in the hype for a while, but there are a good reasons for that. Can't wait for 2.0
+* **AngularJs** - I know Angular is in the hype for a while, but there are a good reasons for that. Can't wait for 2.0
 * **Ionic** - ionic is a framework for building hybrid mobile apps, using angularJs and cordova plugins. It's damn good written and
  has a big community support.
 * **Cordova** - Apache Cordova API's gives access to native mobile devices functions (camera, accelerometer, etc.) with javaScript.
