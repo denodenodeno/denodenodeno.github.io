@@ -28,22 +28,23 @@
 
       },
 
-
       contentLoaded: function () {
           app.setTime('.element__sidebar--read-time', '.element__article--content', 'reading-time');
       },
 
       setTime: function (target, wrapperEl, wrapperElClass) {
-          var wrapper = document.querySelector(wrapperEl).innerText,
-              targetEl = document.querySelector(target),
-              words = wrapper.trim().split(/\s+/g).length/180,
-              minutes = words.toFixed() < 1 ? 1 : words.toFixed(),
-              txt = minutes + ' min',
-              elem = document.createElement('span');
+          if(document.querySelector(wrapperEl) !== null) {
+              var wrapper = document.querySelector(wrapperEl).textContent,
+                  targetEl = document.querySelector(target),
+                  words = wrapper.trim().split(/\s+/g).length/180,
+                  minutes = words.toFixed() < 1 ? 1 : words.toFixed(),
+                  txt = minutes + ' min',
+                  elem = document.createElement('span');
 
-          elem.className = wrapperElClass;
-          elem.innerText = txt;
-          targetEl.appendChild(elem);
+              elem.className = wrapperElClass;
+              elem.textContent = txt;
+              targetEl.appendChild(elem);
+          }
       }
   };
 
