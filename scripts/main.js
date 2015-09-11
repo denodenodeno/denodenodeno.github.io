@@ -24,7 +24,7 @@
               });
           }
 
-          changeLinks(twitter, twitterLink);
+          changeLinks(twitter, encodeURI(twitterLink));
 
       },
 
