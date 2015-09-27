@@ -36,6 +36,6 @@ And today, with a little time for blogging into my belt, I'll share some of the 
 
 ##Supporting apps
 * **Pocket**
-* **ReadKit** - RSS feed app, which also agregates all the stuff from Pocket. Simple and great.
+* **ReadKit** - RSS feed app, which also aggregates all the stuff from Pocket. Simple and great.
 * **Spotify**- who can code without music?
 * **TweetDeck**
