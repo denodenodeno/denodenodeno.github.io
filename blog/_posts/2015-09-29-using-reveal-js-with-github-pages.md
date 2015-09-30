@@ -9,7 +9,7 @@ categories:
 
 [reveal.js](https://github.com/hakimel/reveal.js) is a great and really easy to use framework for creating
 your presentations.
-Today we'll see how to create and deploy your presentations on github pages. (Specific instructions on how to use and configure reveal.js
+Today we'll see how to create and deploy presentations on github pages. (Specific instructions on how to use and configure reveal.js
 can be found [here](https://github.com/hakimel/reveal.js)).
 
 ##Clone reveal.js repository
@@ -66,7 +66,7 @@ git push origin gh-pages
 </pre>
 
 ##Load the page
-Our presentation will be available at *https://username.github.io/projectname*
+Uploaded presentation will be available at *https://username.github.io/projectname*
 
 
 ##Edit your presentation
