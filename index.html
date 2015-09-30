@@ -4,32 +4,9 @@ title: Home | denodenodeno.com
 ---
 <main>
   <!--description-->
-  <section class="element element__description">
-    <div class="element__description--image">
-        <picture class="element__description--image--home">
-            <source srcset="/images/denislav-ganchev.jpg, /images/denislav-ganchev@2.jpg 2x">
-            <img srcset="/images/denislav-ganchev.jpg, /images/denislav-ganchev@2.jpg 2x" alt="Denislav Ganchev"/>
-        </picture>
-    </div>
-    <div class="element__description--text">
-      <p>
-        <span class="text-strong">Denislav.</span> Front-end developer, based in Sofia, Bulgaria.
-      </p>
-      <p>
-        JavaScript obsessed. I use regularly Angular, Ionic and lately ReactJS.
-      </p>
-      <p>
-        I love to read programming books while listening old, mid-40's jazz. <br />On twitter I tweet and retweet mainly about javaScript, Angular, development and nothing more.
-      </p>
-      <p>
-        If you want to get in touch, you can find me on <a href="http://twitter.com/denoStc">twitter</a> or <a
-        href="http://github.com/denodenodeno">GitHub</a>
-      </p>
-    </div>
-  </section> <!-- :description -->
 
   <!--articles-->
-  <section class="element element__content-loop">
+  <section class="element__two-col element__content-loop">
     <h1>Latest posts</h1>
     <ul class="element__posts">
       {% for post in site.posts limit:6 %}
@@ -40,4 +17,28 @@ title: Home | denodenodeno.com
       {% endfor %}
     </ul>
   </section> <!-- :articles -->
+	<section class="element__two-col element__description">
+		<div class="element__description--image">
+			<picture class="element__description--image--home">
+				<source srcset="/images/denislav-ganchev.jpg, /images/denislav-ganchev@2.jpg 2x">
+				<img srcset="/images/denislav-ganchev.jpg, /images/denislav-ganchev@2.jpg 2x" alt="Denislav Ganchev"/>
+			</picture>
+		</div>
+		<div class="element__description--text">
+			<p>
+				<span class="text-strong">Denislav.</span> Front-end developer, based in Sofia, Bulgaria.
+			</p>
+			<p>
+				JavaScript obsessed. I use regularly Angular, Ionic and lately ReactJS.
+			</p>
+			<p>
+				I love to read programming books while listening old, mid-40's jazz. <br />On twitter I tweet and retweet mainly about javaScript, Angular, development and nothing more.
+			</p>
+			<p>
+				If you want to get in touch, you can find me on <a href="http://twitter.com/denoStc">twitter</a> or <a
+					href="http://github.com/denodenodeno">GitHub</a>
+			</p>
+		</div>
+	</section> <!-- :description -->
+
 </main>

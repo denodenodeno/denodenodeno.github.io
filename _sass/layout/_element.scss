@@ -10,21 +10,35 @@
 
 }
 
-.element__description--text {
-  margin: 0 auto;
-  text-align: center;
+.element__two-col {
+  overflow: hidden;
+}
 
-  @media screen and (min-width: 75rem) {
+.element__description {
+  padding-top: 2rem;
+
+  @media screen and (min-width: 55rem) {
+    @include span(3 last);
+  }
+}
+
+.element__description--text {
+//  float: left;
+  margin: 0 auto;
+  text-align: left;
+
+  @media screen and (min-width: 55rem) {
     max-width: 47.5rem;
   }
 
 }
 
 .element__description--image {
+
    img {
     border-radius: 50%;
   }
-  text-align: center;
+
 }
 
 .element__description--image--home {
@@ -32,8 +46,12 @@
 }
 
 .element__content-loop {
+  padding-top: 2rem;
+  text-align: left;
 
-  text-align: center;
+  @media screen and (min-width: 55rem) {
+    @include span(9);
+  }
 
   h1 {
     margin: 0 0 2rem 0;
@@ -44,7 +62,6 @@
       display: block;
       width: 3rem;
       height: 1px;
-      margin: 1.4rem auto 0 auto;
       content: "";
       text-align: center;
       background-color: $border-color--focus;
