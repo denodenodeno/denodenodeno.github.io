@@ -4,7 +4,7 @@
 
     @media screen and (min-width: 34rem) {
       @include push(1);
-      @include span(2);
+      @include span(2 last);
     }
 
   .element__description--image {

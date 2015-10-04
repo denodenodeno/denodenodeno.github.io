@@ -20,6 +20,11 @@ img {
 a {
   color: $link-color;
   text-decoration: none;
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
 }
 
 pre {
