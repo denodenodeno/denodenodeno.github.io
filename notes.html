@@ -9,7 +9,7 @@ title: Notes
     <li class="element__posts">
       <h2 class="element__posts--heading">
         <a href="{{ note.url }}">{{ note.title }}</a>
-        <p class="element__posts--date">{{ note.date | date_to_string }}</p>
+        <span class="element__posts--date">{{ note.date | date_to_string }}</span>
       </h2>
     </li>
     {% endfor %}
