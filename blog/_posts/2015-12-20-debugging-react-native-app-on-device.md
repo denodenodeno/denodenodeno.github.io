@@ -13,6 +13,7 @@ straightforward.
 
 
 ##Change path to js in RCTWebSocketExecutor.m file
+
 You need to change the path to javaScript files in RCTWebSocketExecutor.m to the IP of your computer (see the image below),
 which is in the RCTWebSocket project under the Libraries folder. You can now debug your application in Chrome DevTools.
 
