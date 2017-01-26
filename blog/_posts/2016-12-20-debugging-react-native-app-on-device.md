@@ -2,7 +2,7 @@
 layout: post
 title:  "Debugging React Native iOS application on a device"
 author: Denislav
-date:   2017-01-28 19:21:00
+date:   2016-12-20 19:21:00
 categories: 
   - dev
 ---
